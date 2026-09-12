@@ -567,10 +567,10 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **[Your Full Name]**
 
-- 🎓 Final Year B.E. / B.Tech Student
-- 📧 Email: your.email@example.com
+- 🎓 Final Year BCA / CSA Student
+- 📧 Email: suraj48877@gmail.com
 - 🔗 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- 🐙 GitHub: [@your-username](https://github.com/your-username)
+- 🐙 GitHub: [https://github.com/surajkumar48877-glitch)
 - 🌐 Portfolio: [your-portfolio.com](https://your-portfolio.com)
 
 ---
