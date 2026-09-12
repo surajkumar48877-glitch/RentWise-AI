@@ -569,8 +569,8 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 - 🎓 Final Year BCA / CSA Student
 - 📧 Email: suraj48877@gmail.com
-- 🔗 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- 🐙 GitHub: [https://github.com/surajkumar48877-glitch)
+- 🔗 LinkedIn: www.linkedin.com/in/suraj-kumar-mishra-35a731343
+- 🐙 GitHub: https://github.com/surajkumar48877-glitch
 - 🌐 Portfolio: [your-portfolio.com](https://your-portfolio.com)
 
 ---
