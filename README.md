@@ -1,4 +1,3 @@
-```markdown
 # 🏠 RentWise AI
 
 > **Smart Rental Price Analytics & Property Recommendation System**
@@ -41,6 +40,7 @@ A full-stack web application that empowers tenants to find fair rental prices an
 In India, people renting homes often struggle to find **accurate rental price information**. The same locality shows different rent prices across multiple websites, creating confusion and mistrust. Landlords also lack proper tools to decide a **fair rent** for their property.
 
 **Key challenges:**
+
 - ❌ No single source of truth for rental prices
 - ❌ Inconsistent data across platforms
 - ❌ No data-driven rent suggestions
@@ -65,6 +65,7 @@ In India, people renting homes often struggle to find **accurate rental price in
 ## ✨ Features
 
 ### 👤 Tenant Features
+
 - User registration & secure login (JWT)
 - Smart property search with multi-filter (city, area, BHK, budget, amenities)
 - Save favourite properties
@@ -74,6 +75,7 @@ In India, people renting homes often struggle to find **accurate rental price in
 - Compare two or more properties side-by-side
 
 ### 🏠 Landlord Features
+
 - Register/login as landlord
 - Add, update, and delete property listings
 - Upload multiple property images
@@ -82,6 +84,7 @@ In India, people renting homes often struggle to find **accurate rental price in
 - Track performance of listings
 
 ### 🛡️ Admin Features
+
 - Manage all users (tenants & landlords)
 - Manage / moderate all property listings
 - Remove fake or flagged listings
@@ -89,6 +92,7 @@ In India, people renting homes often struggle to find **accurate rental price in
 - Generate reports (users, listings, trends)
 
 ### ⭐ Unique Features
+
 - **Fair Rent Score** – AI-generated fairness meter
 - **Area-wise Analytics** – Average/Highest/Lowest rent trends
 - **Rent Trend Analysis** – Month-over-month changes
@@ -117,7 +121,7 @@ In India, people renting homes often struggle to find **accurate rental price in
 
 ## 🏗 System Architecture
 
-```
+```text
 ┌───────────────────────────────────────────────┐
 │           CLIENT (React.js + Bootstrap)       │
 │     Tenant  |  Landlord  |  Admin Dashboards  │
@@ -141,7 +145,7 @@ In India, people renting homes often struggle to find **accurate rental price in
 
 ## 📂 Folder Structure
 
-```
+```text
 RentWise-AI/
 │
 ├── frontend/                      # React.js application
@@ -219,6 +223,7 @@ RentWise-AI/
 ### Prerequisites
 
 Make sure you have installed:
+
 - **Node.js** (v18+)
 - **npm** or **yarn**
 - **Python** (v3.9+)
@@ -376,7 +381,9 @@ ML service runs at: `http://localhost:5001`
 ## 🤖 Machine Learning Module
 
 ### Objective
+
 Predict **fair rent** for a property based on:
+
 - City / Area / Locality
 - BHK (1, 2, 3, 4+)
 - Carpet area (sq. ft.)
@@ -386,24 +393,28 @@ Predict **fair rent** for a property based on:
 - Age of building
 
 ### Algorithm Used
+
 - **Random Forest Regressor** (primary)
 - **XGBoost** (comparison)
 - **Linear Regression** (baseline)
 
 ### Pipeline
-```
+
+```text
 Data Collection → Cleaning → Feature Engineering →
 Train/Test Split → Model Training → Evaluation →
 Model Serialization (pickle) → Flask API → Integration
 ```
 
 ### Evaluation Metrics
+
 - R² Score
 - Mean Absolute Error (MAE)
 - Root Mean Squared Error (RMSE)
 
 ### Fair Rent Score
-```
+
+```text
 Fair Rent Score = 100 - |(Listed Rent - Predicted Rent) / Predicted Rent| × 100
 ```
 
@@ -412,6 +423,7 @@ Fair Rent Score = 100 - |(Listed Rent - Predicted Rent) / Predicted Rent| × 100
 ## 📊 Analytics Dashboard
 
 The dashboard provides:
+
 - 📈 **Average Rent by Area** (bar chart)
 - 📉 **Rent Trend Over Time** (line chart)
 - 🥧 **BHK Distribution** (pie chart)
@@ -462,24 +474,28 @@ Charts are rendered using **Chart.js** in the React frontend and computed via **
 ## 🧪 Testing
 
 ### Backend (Jest + Supertest)
+
 ```bash
 cd backend
 npm test
 ```
 
 ### Frontend (React Testing Library)
+
 ```bash
 cd frontend
 npm test
 ```
 
 ### ML (Pytest)
+
 ```bash
 cd machine-learning
 pytest
 ```
 
 ### Manual Testing
+
 Use **Postman** with the collection in `/docs/postman_collection.json`.
 
 ---
@@ -494,6 +510,7 @@ Use **Postman** with the collection in `/docs/postman_collection.json`.
 | Database | **PlanetScale / Railway MySQL** | Managed MySQL |
 
 ### Deployment Steps
+
 1. Push code to GitHub `main` branch
 2. Connect repo to Vercel (frontend) & Render (backend + ML)
 3. Set environment variables on each platform
@@ -507,20 +524,27 @@ Contributions are welcome! Follow these steps:
 
 1. **Fork** the repository
 2. Create a feature branch
+
    ```bash
    git checkout -b feature/amazing-feature
    ```
+
 3. Commit your changes
+
    ```bash
    git commit -m "feat: Add amazing feature"
    ```
+
 4. Push to your branch
+
    ```bash
    git push origin feature/amazing-feature
    ```
+
 5. Open a **Pull Request**
 
 ### Commit Message Convention
+
 | Prefix | Meaning |
 |--------|---------|
 | `feat:` | New feature |
@@ -542,6 +566,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## 👨‍💻 Author
 
 **[Your Full Name]**
+
 - 🎓 Final Year B.E. / B.Tech Student
 - 📧 Email: your.email@example.com
 - 🔗 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
@@ -563,8 +588,10 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
+<p align="center">
+  <b>⭐ If you like this project, don't forget to give it a star! ⭐</b>
+</p>
 
 <p align="center">
   Made with ❤️ in India
 </p>
-```
